@@ -1,38 +1,37 @@
 ---
-name: Inyubakwa ifise Elements na Liquid Network.
-goal: Iga gukoresha no gutegura n'urubuga rwa Elements rwuguruye rwa Blockchain n'ibintu nyamukuru vyarwo
+name: Inyubakwa hamwe Elements na Liquid Network.
+goal: Iga gukoresha no gutegura ukoresheje urubuga rwa Elements rw'isoko yuguruye ya Blockchain n'ibintu ngenderwako vyagwo
 objectives: 
 
-  - Gutahura ivyiyumviro vy’ishimikiro vy’urubuga rwa Elements Blockchain n’imirongo y’inyuma ya Liquid.
-  - Iga gushinga no gukoresha ama node ya Elements ku mitunganyirize yihagaze n’iya Sidechain.
+  - Gutahura ivyiyumviro vy’ishimikiro vya Elements z'inkomoko yuguruye ya Blockchain hamwe na Liquid sidechains.
+  - Iga gushinga no gutanguza(run) ama node ya Elements ku mitunganyirize yihagaze n’iya Sidechain.
   - Uronke ubumenyi ngirakamaro mu bijanye n'ubuhinga bwa block signing na Federated 2-Way Peg.
-  - Gushinga no gucunga ibidukikije bitekanye, bikora neza vya Blockchain ku bikorwa vy’ukuri.
+  - Gushinga no gucunga ibidukikije bifise umutekano(birinzwe), bikora neza vya Blockchain kandi vyizewe mugihe ushatse kubikoresha mu bikorwa vyanyavyo.
 
 ---
 
-# Yubaka kuri Liquid na Elements
+# Kubaka kuri Liquid na Elements
+
+Shikira ubuhinga bushasha buteye imbere bwa Liquid na Elements, kandi umenye ingene wokoresha neza ivyo bikoresho kugira ngo uteze imbere cane imigambi yawe utegura yo kwiteza imbere. Ico cigwa gitanga umushinge wuzuye w’ivyiyumviro n’ibikorwa, bikagufasha kumenya neza ibintu nka Confidential Transactions, Issued Assets, na Federated block signing.
 
 
-Tora ibiranga n’ubushobozi biteye imbere vya Liquid na Elements, kandi umenye ingene wokoresha neza ivyo bikoresho kugira ngo wongere utere imbere mu migambi yawe y’iterambere. Iryo shure ritanga umushinge wuzuye w’ivyiyumviro n’ibikorwa, bikagufasha kumenya neza ibintu nka Confidential Transactions, Issued Assets, na Federated block signing.
+Liquid, ishingiye ku ntumbero ya Elements, igenewe gutuma habaho ubuzima bwibanga, ubushobozi bwo gutera imbere, n’ugukora neza kugira ngo haboneke inyishu z’ivy’amahera n’ivy’ubuhinga. Muri iki cigwa, uzoronka ubumenyi bujanye n’ugutanga no gucunga umutungo, Federated 2-Way Peg, n’ugukoresha ibikoresho nka elementsd na elements-cli, biguhe ubushobozi bwo guhingura inyishu nshasha zihuye n’ivyo ukeneye.
 
 
-Liquid, ishingiye ku ntumbero ya Elements, igenewe gutuma habaho ubuzima bwite, ubushobozi bwo gutera imbere, n’ugukora neza kugira ngo haboneke inyishu z’ivy’amahera n’ivy’ubuhinga. Muri iri shure, uzoronka ubumenyi bujanye n’ugutanga no gucunga umutungo, Federated 2-Way Peg, n’ugukoresha ibikoresho nka elementsd na elements-cli, biguhe ubushobozi bwo guhingura inyishu nshasha zihuye n’ivyo ukeneye.
+Ico cigwa c'abahinguzi(developers) b’ingero zose z'ubumenyi. Abatangura n'abafise ubumenyi bwo hagati na hagati bazoronka insobanuro zishoboka n'ingero ngirakamaro, mu gihe abakoresha bateye imbere bashobora kwihweza cane mu bijanye n'ubuhinga n'ibintu bitazwi cane vya Liquid na Elements.
 
 
-Iryo shure ry’abahinguzi b’inzego zose z’ubumenyi. Abatangura n'abakoresha hagati bazoronka insobanuro zishoboka n'ingero ngirakamaro, mu gihe abakoresha bateye imbere bashobora kwihweza cane mu bijanye n'ubuhinga n'ibintu bitazwi cane vya Liquid na Elements.
-
-
-Twifatanye natwe kugira ngo dushire hejuru ubuhinga bwawe, ufungure ubushobozi bwose bwa Liquid na Elements, kandi ureme ibikoresho bifise ingaruka ku bijanye n’akazoza k’ubuhinga bushasha bwa Liquid.
+Ifatanye natwe kugira ngo uduze urugerio rwawe rw'ubumenyi, ufungure ubushobozi bwose bwa Liquid na Elements, kandi ureme ibikoresho bifise akamaro ku bijanye n’akazoza k’ubuhinga bushasha bwa Liquid.
 
 +++
 
-# Imenyekanisha
+# Intangamarara
 
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
 
-## Incamake y'amashure
+## Incamake y'icigwa
 
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
@@ -41,7 +40,7 @@ Twifatanye natwe kugira ngo dushire hejuru ubuhinga bwawe, ufungure ubushobozi b
 :::id ya videwo=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
 
-Murakaze mu nyigisho ya SID202!
+Kaze mu nyigisho ya SID202!
 
 
 Intumbero ya *Elements Academy* ni ugutanga no gusigura ivyiyumviro nyamukuru vya *Elements*, urubuga rwuguruye rwo gukoresha Liquid Sidechain. Igihe iri shure rizoba rirangiye, ukwiye kuba ufise ugutahura gukomeye kw’ibintu nyamukuru biranga Elements, nka Confidential Transactions na Issued Assets, hamwe n’ingene bigenda mu gukoresha Elements Core. Igice kimwekimwe cose c’ivyo vyigwa kirimwo ivyigwa birimwo ivyanditswe bisigura be n’amavidewo, hanyuma hakaba ikibazo.
