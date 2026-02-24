@@ -66,14 +66,14 @@ Igihe imishinge y'ivyiyumviro izoba yamenyekanye, tuzokwihweza ingene Elements i
 
 **Igice ca 4: Ishirahamwe rya Elements**
 
-Aha, tuzokwihweza uburyo buteye imbere, harimwo block signing y’ubumwe, gukoresha Elements nk’i Sidechain, no guhingura ama blockchains yigenga. Iki gice kizogufasha gutahura ingene womenya neza umutekano, ubutungane, n’ugukorana kw’ama blockchains ashingiye kuri Elements.
+Aha, tuzokwihweza uburyo bwimbitse, harimwo block signing y’ubumwe, gukoresha Elements nka Sidechain, no guhingura ama blockchains yigenga. Iki gice kizogufasha gutahura ingene womenya neza umutekano, ubutungane, n’ugukorana kw’ama blockchains ashingiye kuri Elements.
 
 
 Ni mwiteguye gutohoza ubushobozi bwa Elements na Liquid Sidechain? Reka dutangure!
 
 
 
-## Elements Incamake
+## Incamake ya Elements
 
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
@@ -85,34 +85,34 @@ Ni mwiteguye gutohoza ubushobozi bwa Elements na Liquid Sidechain? Reka dutangur
 Elements ni inkomoko yuguruye, urubuga rwa Blockchain rushobora gukoresha Sidechain, rutanga uburyo bwo gukoresha ibintu bikomeye vyateguwe n'abagize umuryango, nka Confidential Transactions na Issued Assets.
 
 
-Elements ni, mu ntumbero yayo, umurongo ushobora gutuma habaho ukwiyumvikana ku bijanye n’amateka y’ibikorwa n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger itangazwa.
+Elements n'ibintu, integuro ishobora gutuma habaho ukwiyumvikana ku bijanye n’amateka y’ibikorwa n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger ikwiragijwe hose.
 
 
-Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://Liquid.net/devs).
+Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga nyakuri rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://Liquid.net/devs).
 
 
 ### Elements
 
 
-Yatangujwe mu 2015, Elements igabanya amafaranga y’iterambere ry’imbere mu gihugu n’ubushakashatsi kandi ikoresha ubuhinga bushasha bwa Blockchain, igafungura uburyo bushasha bwo gukoresha. Blockchain ishingiye kuri Elements ishobora gukora nk'iyindi Blockchain canke igafatanywa n'iyindi maze igakora nk'iyi Sidechain. Gukoresha Elements nk’uko Sidechain bituma ivy’ubutunzi bishobora guhindurwa mu buryo bugenzurwa hagati y’ama blockchains atandukanye.
+Yatangujwe mu 2015, Elements igabanya amafaranga y'uguhingura hamwe n'ayubushakashatsi bw’imbere kandi ikoresha ubuhinga bushasha bwa Blockchain, yugururira ububasha uburyo bushasha bwo gukoresha. Blockchain ishingiye kuri Elements ishobora gukora nk'iyindi Blockchain canke igafatanywa n'iyindi maze igakora nk'iyi Sidechain. Gukoresha Elements nk'iya Sidechain bituma ivy’ubutunzi bishobora guhindurwa mu buryo bugenzurwa hagati y’ama blockchains atandukanye.
 
 
-Yubakiwe no kwagura codebase ya Bitcoin, ireka abahinguzi bamenyereye bitcoind API vyihuse kandi bitazimvye guhingura blockchains zikora no kugerageza imigambi y’ibimenyamenya vy’ivyiyumviro. Kuba yubatswe ku rutonde rw’amakode rwa Bitcoin navyo bituma Elements ikora nk’aho igerageza amahinduka ku bijanye n’amategeko ya Bitcoin ubwayo.
+Yifadikije code y'inkomoko ya Bitcoin, ireka abahinguzi bamenyereye API ya bitcoind vyihuse kandi bitazimvye guhingura blockchains zikora no kugerageza imigambi y’ibimenyamenya vy’ivyiyumviro. Kuba yubatswe ku rutonde rw’amakode rwa Bitcoin navyo bituma Elements ikora nk’aho igerageza amahinduka ku bijanye n’amategeko ya Bitcoin ubwayo.
 
 
 Bimwe mu bintu nyamukuru biranga Elements ni vyo bikurikira.
 
 
-#### Confidential Transactions
+#### Confidential Transactions(Uguhanahana amahera mu buryo bw'ibanga n'umutekano)
 
 
-Ku mburabuzi, aderesi zose ziri muri Elements ni blinded hakoreshejwe Confidential Transactions. Guhuma amaso ni uburyo umubare n’ubwoko bw’umutungo uriko urarungikwa bihishwa mu buryo bw’ibanga umuntu wese, kiretse abaje mu nama n’abo bahisemwo guhishurira Blinding key.
+Ku mburabuzi, aderesi zose ziri muri Elements ziranyegeje hakoreshejwe Confidential Transactions(Uguhanahana amahera mu buryo bw'ibanga n'umutekano). Kuzinyegeza ni uburyo igitigiri n’ubwoko bw’ivyurungika bihishwa mu buryo bw’ibanga kubantu bose, kiretse ku bari muruwomurwi n’abo bahisemwo guhishurira Blinding key(urwo rupfunguruzo rwo guhisha).
 
 
-#### Issued Assets
+#### Issued Assets(Amafaranga utanze canke urekuye)
 
 
-Issued Assets kuri Elements iremeza ubwoko bwinshi bw’itunga gusohorwa no guhererekanwa hagati y’abafatanyabikorwa b’urubuga. Itunga ryasohowe na ryo nyene rishobora kwungukira kuri Confidential Transactions kandi rishobora gusubirwamwo canke gusenywa n’umuntu wese afise reissuance token ibereye.
+Issued Assets on Elements(Amafaranga utanze canke urekuye kuri Elements) iremeza ubwoko bwinshi bw’amafaranga canke ivyutanga gusohorwa no guhererekanwa hagati y’abafatanyabikorwa b’urubuga. Itunga(amafaranga) ryasohowe na ryo nyene rishobora kwungukira kuri Confidential Transactions kandi rishobora gusubirwamwo canke gusenywa n’umuntu wese afise reissuance token bihuye.
 
 
 #### Federated 2-Way Peg
@@ -121,16 +121,16 @@ Issued Assets kuri Elements iremeza ubwoko bwinshi bw’itunga gusohorwa no guhe
 Elements ni urubuga rwa Blockchain rw’intumbero rusangi rushobora kandi “gufatanywa” na Blockchain iriho (nka Bitcoin) kugira ngo bishobore gutuma umutungo uva ku ruhererekane rumwe uja ku rundi ushobora gukoreshwa mu buryo bubiri. Gushira mu ngiro Elements nka Sidechain bigufasha gukora hirya no hino y’ibintu bimwebimwe vy’uruhererekane nyamukuru, mu gihe uguma ufise urugero rwiza rw’umutekano utangwa n’itunga ry’uruhererekane nyamukuru.
 
 
-#### Amabuye yashizweko umukono
+#### Ama blocks yashizweko umukono(Signed Blocks)
 
 
-Elements ikoresha Strong Federation y’abasinye, bitwa Block Signers, bashira umukono kandi bagahingura amabuye mu buryo bwo kwizigirwa kandi bujanye n’igihe. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ububiko kubera ugusangira kwavyo kw’ubuhinga bwa poisson. Uburyo bwa Federated block signing bushika ku kurema amabuye yizewe ataco bukeneye kwizigira uwundi muntu canke `algorithme` ishingiye kuri Mining.
+Elements ikoresha urunani rw'abashirako imikono benshi(Federated block signing), bitwa Block Signers, bashira umukono kandi bagahingura ama blocks mu buryo bwo kwizigirwa kandi mugihe gito. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ububiko kubera ugusangira kwavyo kw’ubuhinga bwa poisson bw'urukurikirane. Uburyo bwa Federated block signing bushika ku kurema ama blocs bitabanje kuba ngombwa ko wizigira uwundi muntu canke `algorithme` ishingiye kuri Mining.
 
 
 Elements yongerako ivyo vyose hejuru y’urutonde rwa Bitcoin core, igatuma ubushobozi bwa mainchain bugenda neza kandi igatuma habaho ibikorwa bishasha vy’ubudandaji iyo ikoreshejwe nk’umuti wa Sidechain canke nk’umuti wigenga wa Blockchain.
 
 
-# Ikintu
+# Element
 
 
 <partId>ac68d611-be84-432f-a3a8-620d310e131c</partId>
@@ -145,99 +145,99 @@ Elements yongerako ivyo vyose hejuru y’urutonde rwa Bitcoin core, igatuma ubus
 :::id ya videwo=7c8c7981-11e5-47a2-a257-ef998f4892f5::
 
 
-Elements itanga umuti w’ubuhinga ku ngorane abakoresha Blockchain bahura na zo ku musi ku musi; n’uguteba gukora, ukubura ubuzima bwite, n’ingorane zo guhindura ibintu.
+Elements itanga umuti w’ubuhinga ku ngorane abakoresha Blockchain bahura na zo ku musi ku musi; n’uguteba kw'uguhanahana, ukubura gukwingira ubuzima bw'ibanga, n’ingorane zo guhindagura ibintu.
 
 
-Elements iranesha izo ngorane biciye mu gukoresha block signing na Confidential Transactions.
+Elements irakemura izo ngorane biciye mu gukoresha block signing na Confidential Transactions.
 
 
-Mu buryo butandukanye n’urubuga rwa Bitcoin, inzira ya block signing muri Elements ntishingiye ku mikono y’abanyamuryango b’imigambwe myinshi (DMMS) na Proof of Work (PoW). Ahubwo, Elements ikoresha Strong Federation y’abasinye, bitwa Block Signers, bashobora gusinya no kurema amabuye mu buryo bwizewe kandi bujanye n’igihe. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ibikorwa kubera ugusangira kwavyo kw’imburakimazi. Uburyo bwa Federated block signing burashika ku kurema amabuye yizigirwa ata gushiramwo ivy’ukwizigira uwundi muntu.
+Mu buryo butandukanye n’urubuga rwa Bitcoin, inzira ya block signing muri Elements ntishingiye ku mikono y’abanyamuryango b’imigambwe myinshi (DMMS) na Proof of Work (PoW). Ahubwo, Elements ikoresha Strong Federation of signatories, bitwa Block Signers, bashobora gusinya no kurema ama blocks mu buryo bwizewe kandi bunyaruka. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ibikorwa kubera ugusangira kwavyo muburyo bwa poisson bukurikirana. Uburyo bwa Federated block signing burashika ku kurema ama blocks yizigirwa ata gushiramwo ivy’ukwizigira uwundi muntu.
 
 
-Elements ishobora gukora nk’i Sidechain ku yindi Blockchain, nka Bitcoin, canke nk’iyindi Blockchain yigenga ataco iva ku yindi nzira.
+Elements ishobora gukora nk’i Sidechain ku yindi Blockchain, nka Bitcoin, canke nk’iyindi Blockchain yigenga itabanje kugendera kuzindi mbuga canke imirongo.
 
 
-Iyo ikoreshejwe nka Sidechain, Strong Federation irimwo kandi abagize umuryango bashoboza gutanga umutungo mu buryo butekanye kandi bugenzurwa hagati y'uruhererekane rukuru na Elements Sidechain. Ukwimurira umutungo bigenzurwa vyitwa Federated 2-Way Peg kandi abagize umuryango bakora uruhara rwo kwimurira umutungo bitwa watchmen.
+Iyo ikoreshejwe nka Sidechain, Strong Federation irimwo kandi abagize umuryango bashoboza gutanga umutungo(amafaranga) mu buryo butekanye kandi bugenzurwa hagati y'uruhererekane rukuru na Elements Sidechain. Ukwimurira umutungo bigenzurwa vyitwa Federated 2-Way Peg kandi abagize umuryango bakora uruhara rwo kwimurira umutungo bitwa watchmen(umucungerezi).
 
 
 Inzira zijanye n’ugutwara urubuga rwa Elements n’uruhara rw’abagira uruhara muri urwo rubuga ni ngirakamaro kugira ngo umuntu atahure ingene Elements ikora.
 
 
-Yaba ishizwe mu ngiro nk’i Sidechain canke Blockchain yigenga, Elements ikoresha amashirahamwe akomeye y’abasinya amabuye kugira ngo ikore amabuye.
+Yaba ishizwe mu ngiro nk’i Sidechain canke Blockchain yigenga, Elements ikoresha amashirahamwe akomeye y’abasinya ama blocks kugira ngo ikore ama blocks.
 
 
-### Amashirahamwe akomeye
+### Amashirahamwe akomeye(Strong Federation)
 
 
-Elements ikoresha uburyo bwo kwumvikana ubwa mbere bwashikirijwe na Blockstream, bwitwa Amashirahamwe akomeye. Strong Federation ntikeneye Proof of Work (PoW) ahubwo yizigira ibikorwa rusangi vy’umugwi w’abaje mu nama batizigirana, bitwa Abakozi.
+Elements ikoresha uburyo bwo kwumvikana ubwa mbere bwashikirijwe na Blockstream, bwitwa Amashirahamwe akomeye. Strong Federation ntabwo isaba Proof of Work (PoW) ahubwo yizigira ibikorwa rusangi kurusha ibikorwa vy'umurwi w'abakozi canke banywanyi batizigirana, bitwa Abakozi.
 
 
-Uruhara umukozi ashobora gukora muri Strong Federation ni: Abashira umukono ku mabarabara na watchmen. Abashirako umukono ku mabarabara barakenewe iyo ukoresha Elements mu buryo bwa Sidechain canke Blockchain yigenga, mu gihe watchmen isabwa gusa mu buryo bwa Sidechain.
+Uruhara umukozi ashobora gukora muri Strong Federation ni: Abashira umukono kuma blocks na watchmen. Abashirako umukono kuma blocks barakenewe iyo ukoresha Elements mu buryo bwa Sidechain canke Blockchain yigenga, mu gihe watchmen isabwa gusa mu buryo bwa Sidechain.
 
 
-Ibikorwa umunyamuryango wa Strong Federation ashobora gukora bigabanwa hagati y’inshingano zibiri zitandukanye kugira ngo umuntu ashobore umutekano mwiza kandi agabanye ingorane umuterabwoba ashobora gutera.
+Ibikorwa umunyamuryango wa Strong Federation ashobora gukora bigabanwa hagati y’ibikorwa bibiri zitandukanye kugira ngo umuntu ashobore kugira umutekano mwiza kandi agabanye ingorane uwuter'ubwoba ashobora gutera.
 
 
-Iyo bihuriwe hamwe, uruhara rw’abo bari muri iyo nama rutuma Elements ishobora gutanga ivyo bibiri, uguhingura amabuye vyihuta (kwemeza ibikorwa vyihuta kandi vy’iherezo) n’itunga ryizewe, rishobora kwimurirwa (itunga ryishizweho rishobora guhuzwa ata guca ku ruhande n’iyindi Blockchain).
+Iyo bihuriwe hamwe, uruhara rw’abo bari muri iyo nama rutuma Elements ishobora gutanga ivyo bibiri, uguhingura ama blocs vyihuta (kwemeza ibikorwa vyihuta kandi burundu) n’itunga rirungikwa,  canke rishobora kwimurirwa (itunga ryishizweho rishobora guhuzwa ata guca ku ruhande n’iyindi Blockchain).
 
 
-Ushobora gusoma igitabu cera c'amashirahamwe akomeye hano: https://blockstream.com/amashirahamwe akomeye.pdf
+Ushobora gusoma igitabu cera ca Strong Federation hano: https://blockstream.com/amashirahamwe akomeye.pdf
 
 
-### Abasinye
+### Abashira imikono kuma blocks
 
 
-Blockchain nk’iya Bitcoin iragurwa iyo umuntu wese agize umugwi w’abashira umukono ku mabuye ashobora kwaguka uruzitiro mu kwerekana Proof of Work yakoreshejwe. Kamere y’inguvu y’umugwi izana ibibazo vy’uguteba biva muri izo nzira.
+Blockchain nk’iya Bitcoin Ikora neza iyo umuntu wese agize umugwi w’abashira umukono ku ma blocks ashobora kwaguka uruzitiro mu gutanga Proof of Work. Kamere y’inguvu y’umugwi izana ibibazo vy’uguteba biva muri izo nzira.
 
 
-Mu gukoresha umugwi w'abasinyi udahinduka, ikigereranyo c'Ubumwe gisubirira umugwi w'inguvu n'umugwi uzwi, umugambi w'imikono myinshi. Kugabanya umubare w’abaje mu nama bakenewe kugira ngo Blockchain yongererwe, birongereza umuvuduko n’ubushobozi bwo gukoresha, mu gihe kwemezwa n’abafatanyabikorwa bose bituma amateka y’ibikorwa aguma ari meza.
+Mu gukoresha umugwi w'abashira imikono udahinduka, ikigereranyo c'Ubumwe gisubirira umugwi w'inguvu n'umugwi uzwi, hubahirijwe umugambi w'imikono myinshi. Kugabanya igitigiri c’abaje mu nama bakenewe kugira ngo Blockchain yongererwe, birongereza umuvuduko n’ubushobozi bwo gukoresha, mu gihe kwemezwa n’abafatanyabikorwa bose bituma amateka y’ibikorwa aguma ari meza.
 
 
-block signing y’ubumwe igizwe n’ibice vyinshi:
-
-
-
-- Intambwe ya 1 - Abashize umukono ku mabarabara barasaba amabarabara y’abahiganwa mu buryo bw’uruziga ku bandi bose bashize umukono ku mabarabara bari muri iyo nama.
+Umukono w’ubumwe ugizwe n’ibice vyinshi:
 
 
 
-- Intambwe ya 2 - Buri block signer yerekana umugambi wayo mu kwiyemeza imbere y’igihe gusinya igitabu c’abazokwitoza.
+- Intambwe ya 1 - Abashize umukono ku ma blocks barasaba amabarabara y’abahiganwa mu buryo bw’ku ncuro y'umwe wese ku bandi bose bashize umukono ku blocks y'abari muri iryo higanwa.
 
 
 
-- Intambwe ya 3 - Iyo urugero rwatanzwe rw’imbere ya Commitment rushitsweko, block signer yose irashira umukono ku gipande.
+- Intambwe ya 2 - Buri block signer(uwushira umukono kuri blocks) yerekana umugambi wayo mu kwiyemeza imbere y’igihe gusinya block y'uwuhiganwa kanaka.
 
 
 
-- Intambwe ya 4 - Iyo umukono w’umukono (ushobora kuba utandukanye n’uw’intambwe ya 3) ushitsweko, iyo block iraremerwa igarungikwa ku rubuga. Strong Federation yashitse ku masezerano ku bijanye n’ibarabara rya nyuma ry’ibikorwa.
+- Intambwe ya 3 - Iyo urugero rwatanzwe rw’imbere yo gutangura rushitsweko, utera umukono wese arashira umukono kuri block.
 
 
 
-- Intambwe ya 5 - Igipande gikurikira gica gishikirizwa na block signer ikurikira mu nzira y’uruziga maze iyo nzira igasubirwamwo.
+- Intambwe ya 4 - Iyo umukono (ushobora kuba utandukanye n’uw’intambwe ya 3) ushitsweko, iyo block iremerwa ikarungikwa ku rubuga. Strong Federation yashitse ku masezerano ku bijanye na block y’ibikorwa(uguhanahana) yanyuma.
 
 
-Kubera ko uruvyaro rw’amabuye rwa Strong Federation rudashobora kubaho kandi rushingiye ku rutonde rw’abashizeko umukono rudahinduka, ntiruzokwigera rusubirwamwo amabuye menshi. Ivyo bituma habaho ukugabanya cane igihe co kurindira gifitaniye isano n’ukwemeza amafaranga. Bikuraho kandi inguvu zo gucukura amabuye y’agaciro kugira ngo umuntu aronke inyungu (ni ukuvuga, ingororano z’amabuye) rigasubirizwa n’inguvu zo kugira uruhara mu buryo buvamwo inyungu mu rubuga aho abarugiramwo bose bafise intumbero imwe; kumenya ko urubuga rukomeza gukora mu buryo bugirira akamaro bose. Ivyo ibikora ata n’akarongo na kamwe k’ukunanirwa canke ibisabwa vy’ukwizigira bihambaye kuruta.
+
+- Intambwe ya 5 - Igipande gikurikira gica gishikirizwa na block signer akwirikira ku ncuro yiwe maze iyo nzira igasubirwamwo.
 
 
-### 143 nk'indege 142 - 144 na 141
+Kubera ko urunani rw’ama blocs ya Strong Federation adashobora kubaho kandi rushingiye ku rutonde rw’abashizeko umukono rudahinduka, ntiruzokwigera rusubirwamwo ama blocs menshi. Ivyo bituma habaho ukugabanya cane igihe co kurindira gifitaniye isano n’ukwemeza ibikorwa. Bikuraho kandi inguvu zo gucukura(mine) kugirra ngo umuntu aronke inyungu (ni ukuvuga, ingororano z’ama blocs) rigasubirizwa n’inguvu zo kugira uruhara mu buryo buvamwo inyungu mu rubuga aho abarugiramwo bose bafise intumbero imwe; kumenya ko urubuga rukomeza gukora mu buryo bugirira akamaro bose. Ivyo ibikora ata n’akarongo na kamwe k’ukunanirwa canke ibisabwa vy’ukwizigira bihambaye kuruta.
 
 
-Iyo ikoreshwa nka Sidechain, bamwe mu bagize Strong Federation barafise uruhara rw'inyongera borangura, urwo watchmen. watchmen ni bo bajejwe kwimurira umutungo mu Elements Sidechain no kuyasohora, uburyo buzwi nka `Peg-In` na `Peg-Out`.
+### Elements nka sidechain - Watchmen hamwe n'ama node y'inzira zibiri ashize hamwe
 
 
-Kugira ngo Sidechain ikore mu buryo bwo kwizigirwa itegerezwa kwemerera abayigize kugenzura ko Supply y’itunga igenzurwa kandi ishobora kugenzurwa. Elements Sidechain ikoresha federated peg y'inzira zibiri kugira ngo ishobore gutanga umutungo mu nzira zibiri mu Elements Blockchain. Ivyo bishitsa ibisabwa vyo gutanga amafaranga yemezwa n’ugutanga amafaranga hagati y’imirongo.
+Iyo ikoreshejwe nka Sidechain, bamwe mu bagize Strong Federation barafise uruhara rw'iyongera kurwo bafise borangura, urwo watchmen. watchmen ni bo bajejwe kwimurira umutungo(amafaranga) mu Elements Sidechain no kuyasohora, uburyo buzwi nka `Peg-In` na `Peg-Out`.
 
 
-Igikoresho ca Federated 2-Way Peg kiremesha umutungo gukorana n’izindi blockchains kandi kikaba giserukira uwundi mutungo w’akavukire wa Blockchain. Mu gufatanya Blockchain yawe n’iyindi, urashobora kwagura ubushobozi bwa mainchain maze ukanesha bimwe mu biyigora.
+Kugira ngo Sidechain ikore mu buryo bwizewe itegerezwa kwemerera abayigize kugenzura ko amafaranga agenzurwa kandi ishobora kwemezwa. Elements Sidechain ikoresha federated peg y'inzira zibiri kugira ngo ishobore gutanga umutungo mu nzira zibiri mu Elements Blockchain. Ivyo bishitsa ibisabwa vyo gutanga amafaranga yemezwa n’ugutanga amafaranga hagati y’imirongo(inter-chain).
 
 
-Ku rugero rwo hejuru, ukwimurira muri Sidechain bishika iyo umuntu yohereje umutungo wa mainchain kuri Address igenzurwa n'umukono mwinshi watchmen Wallet. Ivyo bica bihagarika neza ivy’ubutunzi biri kuri mainchain. watchmen rero yemeza iyo nzira maze igatanga umubare nk'uwo w'umutungo ujana muri Sidechain. Ivyo bintu vyarekuwe birungikwa ku Sidechain Wallet ishobora kwemeza ko umuntu afise uburenganzira ku bintu vy’intango vya mainchain. Iyi nzira ijana neza ivy'ubutunzi kuva ku ruhererekane rw'umuvyeyi bikaja kuri Sidechain.
+Igikoresho ca Federated 2-Way Peg kiremesha umutungo gukorana n’izindi blockchains kandi kikaba giserukira uwundi mutungo w’akavukire wa Blockchain. Mu gufatanya Blockchain yawe n’iyindi, urashobora kwagura ubushobozi bwa mainchain maze ukanesha inzira zimwe zimwe itarenga.
 
 
-Kugira ngo umuntu ashobore gusubiza umutungo kuri mainchain, akora igikorwa kidasanzwe co gukuraho umutungo kuri Sidechain. Ivyo bicuruzwa bigenzurwa na watchmen hanyuma bagashira umukono ku mafaranga y'ugucuruza avuye kuri Wallet ifise amasinya menshi bagenzura kuri mainchain. Igitigiri c’abazoja muri iyo federasiyo kigomba gusinywa imbere y’uko isoko rya mainchain rigira akamaro. Iyo watchmen yohereje umutungo ugasubira kuri mainchain na yo nyene irasambura umubare uhuye kuri Sidechain, igatuma umutungo urungikwa hagati y’ama blockchains.
+Ku rugero rwo hejuru, ukwimurira muri Sidechain bishika iyo umuntu yohereje umutungo wa mainchain kuri Address igenzurwa n'umukono mwinshi watchmen Wallet. Ivyo bica bihagarika neza ivy’ubutunzi biri kuri mainchain. watchmen rero yemeza iyo nzira maze igatanga igitigiri nk'uwo w'umutungo ujana muri Sidechain. Ivyo bintu vyarekuwe birungikwa ku Sidechain Wallet ishobora kwemeza ko umuntu afise uburenganzira ku bintu vy’intango vya mainchain. Iyi nzira ijana neza ivy'ubutunzi kuva ku ruhererekane rw'umuvyeyi bikaja kuri Sidechain.
 
 
-## Gutegura no gukoresha Elements
+Kugira ngo umuntu ashobore gusubiza umutungo(amafaranga) kuri mainchain, akora igikorwa kidasanzwe co gukuraho umutungo kuri Sidechain. Ivyo bicuruzwa bigenzurwa na watchmen hanyuma bagashira umukono ku mafaranga y'ugucuruza avuye kuri Wallet ifise imikono myinshi bagenzura kuri mainchain. Igitigiri c’abazoja muri urwo runani kigomba gushigwako umukono imbere y’uko isoko rya mainchain rigira akamaro. Iyo watchmen arungitse umutungo ugasubira kuri mainchain na yo nyene irasambura igitigiri gihuye kuri Sidechain, igatuma umutungo urungikwa hagati y’ama blockchains.
+
+
+## Gutegura n'ikoreshwa rya Elements
 
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
@@ -246,34 +246,34 @@ Kugira ngo umuntu ashobore gusubiza umutungo kuri mainchain, akora igikorwa kida
 :::id ya videwo=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 
-Kubera ko Elements ishingiye ku rutonde rw’amakode rwa Bitcoin, ibice bigize urubuga rukora birasa cane.
+Kubera ko Elements ishingiye ku rutonde rw’amakode y'inkomoko ya Bitcoin, ibice bigize urubuga rukora birasa cane.
 
 
-Porogaramu y’urudodo rwa Elements ubwayo yitwa `elementsd` kandi ikora nk’iyi daemon ku mashini y’uwuyikoresha. daemon (canke igikorwa muri Windows) ni porogarama ikora nk’igikorwa co mu nyuma idasaba ko uwukoresha yinjiye ayigenzura ata guca ku ruhande.
+Porogaramu ya node ya Elements ubwayo yitwa `elementsd` kandi ikora nka service canke (daemon) ku mashini y’uwuyikoresha. daemon (canke igikorwa muri Windows) ni porogarama ikorera inyuma bitabanje gusaba ko umukoresha wayo aza.
 
 
-Iciyumviro: Muri iyi nyandiko yose, tuzokwama tuvuga elementsd nk’uko ari verisiyo ya daemon, ariko vyose vyoshobora gukorwa na Elements-qt, igihe gusa uburyo bwa server bushoboka.
+Ico kwitondera: Muri iyi nyandiko yose, tuzokwama tuvuga elementsd nk’uko ari verisiyo ya daemon, ariko vyose vyoshobora gukorwa na Elements-qt, igihe gusa uburyo bwa server buzoba bwuguruye.
 
 
-Elements daemon ifatanya n'izindi nzira ziri ku rubuga kugira ngo ishobore gukorana n'amakuru no guhagarika amakuru, yemeza no kwagura kopi yayo y'urubuga Blockchain.
+Elements daemon ifatanya n'ayandi ma node ari ku rubuga kugira ngo ishobore guhanahana amakuru no guhagarika iamakuru y'ibikorwa n'ivya block, yemeza mu kurindira kopi yayo hanze y'urubuga ya Blockchain.
 
 
-Porogarama ya Elements kandi igizwe na porogarama y’umukiriya yitwa `elements-cli` ishobora kugufasha kohereza amabwirizwa y’uguhamagara kure (RPC) kuri elementsd ukoresheje umurongo w’amabwirizwa. Ivyo bishobora gukoreshwa mu kubaza umubare w’amahera ya Wallet, kuraba ibikorwa canke guhagarika amakuru canke gutangaza ibikorwa nk’akarorero. Iyi setup ikwiye kuba imenyerewe n’umuntu wese yakoresheje ibihwanye na Bitcoin; 183 na 180.
+Porogarama ya Elements kandi igizwe na porogarama y’umukiriya yitwa `elements-cli` ishobora kugufasha kurungika amabwirizwa(commands) (RPC(Remote Procedure Call)) kuri elementsd ukoresheje umurongo w’amabwirizwa. Ivyo bishobora gukoreshwa mu kubaza igitigiri c’amahera ya Wallet, kuraba ibikorwa canke guhagarika amakuru canke gutangaza ibikorwa nk’akarorero. Iyi setup ikwiye kuba imenyerewe n’umuntu wese yakoresheje ibihwanye na Bitcoin; 183 na 180.
 
 
-Nk'uko urudodo rwa Elements rushobora gutunganirizwa biciye mu gutanga amaparametere mu gihe co gutangura canke biciye mu dosiye y'ugutunganirizwa birashoboka ko haba instance zirenga imwe zikora ku mashini imwe. Ivyo ni ngirakamaro ku ntumbero zo kugerageza no gutegura kuko ushobora gushinga urubuga rwawe rw’aho uba ku mashini imwe, buri node ya Elements ikaba ifise kopi yayo y’amakuru ya Blockchain, igacungera umugwi wayo w’ibikorwa vy’ubudandaji bitaremejwe kandi igatega yompi ibisabwa na RPC ku bibanza bitandukanye.
+Nk'uko node ya Elements ishobora gutunganywa biciye mu gutanga amaparametere mu gihe co gutangura canke biciye mu dosiye y'ugutunganirizwa birashoboka ko haba igikorwa kirenga kimwe gikora ku mashini imwe. Ivyo ni ngirakamaro ku ntumbero zo kugerageza no gutegura kuko ushobora gushinga urubuga rwawe rw’aho uba ku mashini imwe, buri node ya Elements ikaba ifise kopi yayo y’amakuru ya Blockchain, igacungera umugwi wayo w’ibikorwa vy’ubudandaji bitaremezwa kandi igatega yompi ibisabwa na RPC ku bibanza bitandukanye.
 
 
-### Ububiko bw'Itegeko rya Elements n'Umuryango
+### Ububiko bwa kode  hamwe n'umuryango wa Element
 
 
-Elements ni umugambi w'inkomoko yuguruye kandi kode yayo y'inkomoko ishobora kuboneka mu bubiko bwa Elements GitHub kuri https://github.com/ElementsProject/Elements. Ububiko burimwo inkomoko ya porogarama za elementsd na elements-cli hamwe n’ibikoresho vyo gushiramwo no kwubaka, urutonde rw’ibigeragezo n’inyandiko zimwezimwe z’inyigisho.
+Elements ni umugambi w'isoko yuguruye kandi kode yayo y'inkomoko ishobora kuboneka mu bubiko bwa Elements GitHub kuri https://github.com/ElementsProject/Elements. Ububiko burimwo inkomoko ya porogarama za elementsd na elements-cli hamwe n’ibikoresho vyo gushiramwo no kwubaka, urutonde rw’ibigeragezo(test) n’inyandiko zimwezimwe z’inyigisho.
 
 
-Kugira ngo wuzuze ububiko bwa kode, hariho kandi urubuga https://elementsproject.org, urubuga rwibanda ku kibano rurimwo insobanuro z’ico Elements ari co, ingene ikora n’igice c’inyigisho zitomoye. Inyigisho yibanze ku kwiga ivyerekeye Elements mu gukurikira ingero z’umurongo w’amabwirizwa kandi ikwereka ingene wokora porogarama zoroheje zo ku biro n’iz’urubuga hejuru yayo. Urubuga kandi ruratanga urutonde rw’amahuriro y’ibiganiro vy’abanyagihugu azwi cane Elements kandi ubwarwo rwakira GitHub, bikaba bishoboza gutanga intererano z’abanyagihugu ku birimwo.
+Kugira ngo wuzuze ububiko bwa kode, hariho kandi urubuga https://elementsproject.org, urubuga rwibanda ku kibano rurimwo insobanuro z’ico Elements ari co, ingene ikora n’igice c’inyigisho zitomoye. Inyigisho yibanze ku kwiga ivyerekeye Elements mu gukurikira ingero z’umurongo w’amabwirizwa kandi ikwereka ingene wokora porogarama zoroheje zo kuri web hamwe n'izo mubiro zoroshe. Urubuga kandi ruratanga urutonde rw’amahuriro y’ibiganiro azwi cane n'umuryango wa Elements kandi ubwarwo rubitswe kuri GitHub, bikaba bishoboza gutanga intererano uwo muryango ku birimwo.
 
 
-Kugira ngo ukoreshe Elements ku mashine yawe uzobanza gukora clone (gukuraho kopi ya) kode y’inkomoko, ushiremwo ibintu vyose biva kuri iyo kode hanyuma uherezeko wubake daemon n’ibikorwa vy’abaguzi. Porogarama ya Elements rero iraheza iteguye gutunganirizwa no gukoreshwa.
+Kugira ngo ukoreshe Elements ku mashine yawe uzobanza gukora clone (gukurako kopi) kode y’inkomoko, ushiremwo ibintu vyose biva kuri iyo kode(ivyo iyo kode yifashisha kugira ikore) hanyuma uherezeko wubake daemon n’ibikorwa vy’abaguzi. Porogarama ya Elements rero iraheza iteguye gutunganirizwa no gukoreshwa.
 
 
 ## Gutunganya ama node n'urubuga
@@ -282,36 +282,36 @@ Kugira ngo ukoreshe Elements ku mashine yawe uzobanza gukora clone (gukuraho kop
 <chapterId>df1ec0aa-84ea-4149-af7a-b4523d67e1d9</chapterId>
 
 
-Ivyagezwe vy’imiterere birashobora guca ku nzira ya Elements igihe itanguye kugira ngo ihindure uburyo ikora, yemeze amakuru, ihuze n’izindi nzira no gutanguza amakuru yayo ya Blockchain.
+Ubuhinga bwo gutegura bushobora gutangwa kuri node Elements igihe itanguye kugira ngo ihindure uburyo ikora, yemeze amakuru, ihuze n’izindi nzira no gutanguza amakuru yayo ya Blockchain.
 
 
-Amategeko ashobora gushirwa muri dosiye `Elements.conf` canke akajanwa nk'amaparametere biciye ku murongo w'amabwirizwa.
+Amategeko ashobora gushirwa muri dosiye `Elements.conf` canke akajanwa nk'amategeko biciye ku murongo w'amabwirizwa(commands).
 
 
-Bimwe mu bintu bishobora guhindurwa hakoreshejwe ibi bipimo:
+Bimwe mu bintu bishobora guhindurwa hakoreshejwe aya mategeko:
 
 
 
-- Izina rya default asset rikoreshwa mu gushirwa mu ngiro kwa Blockchain.
-- Umubare w’itunga ry’intango ryaremwe.
-- Itunga rizokoreshwa igihe umuntu ariha amafaranga y’ugucuruza ku rubuga.
+- Izina rya default asset(usangako) rikoreshwa mu gushirwa mu ngiro kwa Blockchain yigenga.
+- I nomero y’itunga ry’intango ryaremwe.
+- Itunga rizokoreshwa igihe umuntu ariha amafaranga y’igikorwa ku rubuga.
 - Aho amadosiye y’amakuru ya Blockchain abikwa.
-- Ivyemezo vya RPC bikoreshwa mu gufatanya n’urudodo rwa Bitcoin.
+- Ivyemezo vya RPC bikoreshwa mu gufatanya node ya Bitcoin.
 - `n ya m` threshold izoshikwako n'imfunguruzo za bose zishobora gusinya amabuye.
-- Inyandiko ikeneye guhazwa kugira ngo umuntu ashobore kwimurira umutungo mu gitabu ca Sidechain.
-- Nimba wofatanya n’uruzitiro rwa Bitcoin nk’uruzitiro rwa Sidechain canke atarivyo.
+- Inyandiko aho itarenga kugira ngo umuntu ashobore kwimurira umutungo mu gitabu ca Sidechain.
+- Birakenewe gufatanya canke ukareka node ya Bitcoin nka sidechain?
 
 
-Benshi muri abo bari mu mategeko y’uguhurizako y’urubuga, ni co gituma bihambaye ko bashirwa mu ngiro ku nzira zose ku gutangura. Bimwe bishobora guhindurwa inyuma y’aho uruzitiro rutanguriye ariko hari bimwe bikeneye gukosorwa inyuma y’aho bikoreshejwe mu gutangura uruzitiro.
+Benshi muri abo bari mu mategeko y’uguhurizako y’urubuga, ni co gituma bihambaye ko bashirwa mu ngiro ku nzira zose ugitangura. Bimwe bishobora guhindurwa inyuma y’aho umugozi(chain) rutanguriye ariko hari bimwe bikeneye gukosorwa inyuma y’aho bikoreshejwe mu gutangura uwo mugozi.
 
 
-Ikoreshwa ry’ibipimo rizokwihwezwa mu nyuma mu nyigisho nk’uko n’igihe bifitaniye isano n’igice kimwekimwe cose.
+Ikoreshwa ry’amategeko rizokwihwezwa mu nyuma mu nyigisho nk’uko n’igihe bifitaniye isano n’igice kimwekimwe cose.
 
 
-### Ibikorwa vy'ishimikiro hakoreshejwe umurongo w'itegeko
+### Ibikorwa vy'ibanze hakoreshejwe umurongo w'amabwirizwa
 
 
-Iyi nyigisho izokwerekana ingero zikoresha porogarama ya `elements-cli` kugira ngo zihamagare RPC ku nzira imwe canke nyinshi za Elements. Ivyo bikorwa bivuye mu gihe c'iherezo kandi kugira ngo amabwirizwa abe make hazokoreshwa `alias`. Kubera iri koraniro iyo ubonye ikintu nk’aya mabwirizwa akurikira:
+Iyi nyigisho izokwerekana ingero zikoresha porogarama ya `elements-cli` kugira ngo zihamagare RPC ku nzira imwe canke nyinshi za Elements. Ivyo bikorwa bivuye mu gihe c'iherezo kandi kugira ngo amabwirizwa abe make hazokoreshwa `alias`. Kubera iri koraniro iyo ubonye ikintu gisa n'aya mabwirizwa akurikira:
 
 
 ```bash
@@ -334,7 +334,7 @@ $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir1 getnewaddress
 Ivyo tubona haruguru ni uguhamagara gutangura Elements daemon n'uguhamagara porogarama za elements-cli ziri mu bubiko bwa `$HOME/Elements/src` n'agaciro k'umurongo wa `datadir`. Igiharuro ca `datadir` kidufasha kubwira daemon n'abaguzi aho boshira amadosiye yabo y'imiterere, kandi ku bijanye na daemon, aho bobika kopi yayo ya Blockchain. Uko basangira dosiye ya config, umukiriya azoshobora guhamagara RPC kuri daemon.
 
 
-Mu gukoresha itegeko riri hejuru kandi, ariko n'agaciro ka `datadir` gatandukanye, turashobora gutangura instance zirenga imwe za Elements, imwe yose ifise kopi yayo yihariye ya Blockchain n'imiterere ya config. Muri iri sezerano tuzokoresha izina ry'ibanga `e2-dae` na `e2-CLI` mu nyigisho kugira ngo tuvuge ububiko bw'amakuru butandukanye n'ubwa e1. Rero akarorero kari hejuru k'akarorero kacu ka kabiri `e2` koba:
+Mu gukoresha command ikwirikira riri hejuru kandi, ariko n'agaciro ka `datadir` gatandukanye, turashobora gutangura ibindi bikorwa birenga kimwe ca Elements, imwe yose ifise kopi yayo yihariye ya Blockchain n'imiterere ya config. Muri iri sezerano tuzokoresha izina ry'ibanga `e2-dae` na `e2-CLI` mu nyigisho kugira ngo tuvuge ububiko bw'amakuru butandukanye n'ubwa e1. Rero akarorero kari hejuru k'akarorero kacu ka kabiri `e2` koba:
 
 
 ```
@@ -344,16 +344,16 @@ $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 ```
 
 
-Ivyo bizotuma dushobora gukora ibikorwa vy’ubwoko bwose nk’ugucuruza itunga hagati y’ibice, gutanga itunga no kugenzura ikoreshwa ry’uguhuma amaso muri Confidential Transactions hagati y’ibice bitandukanye biri ku rubuga rumwe.
+Ivyo bizotuma dushobora gukora ibikorwa vy’ubwoko butandukanye  itunga hagank'ibikorwa vyo guhanhana amafaranga hagati y'ama node  gutanga umutungo hamwe no kugenzura ikoreshwa ry’uguhisha muri Confidential Transactions(ibikorwacanke guhanahana vy'ibanga) hagati y’ama node atandukanye ari ku rubuga rumwe.
 
 
-# Gukoresha ikintu gikoreshwa
+# Gukoresha mu mwanya wo gukoresha mu bikorwa vya Element
 
 
 <partId>3f31a30a-957a-4813-b5fe-5dccbb5366f3</partId>
 
 
-## Confidential Transactions
+## Confidential Transactions(Ibikorwa canke guhanahana vy'ibanga)
 
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
@@ -365,19 +365,19 @@ Ivyo bizotuma dushobora gukora ibikorwa vy’ubwoko bwose nk’ugucuruza itunga 
 Muri iki gice uzomenya ingene ukoresha ikintu ca Confidential Transactions ca Elements.
 
 
-Amaderesi yose ari muri Elements ni, ku buryo busanzwe, blinded ikoresha Confidential Transactions, ivyo bikaba bituma umubare n’ubwoko bw’itunga ryimuriwe biboneka ku bari muri iyo nzira gusa (n’abo bahisemwo guhishurira Blinding key), mu gihe biguma vyemeza ko ata biceri vyinshi bishobora gukoreshwa kuruta.
+Amaderesi yose ari muri Elements ni, ku buryo busanzwe, guhisha ukoresheje Confidential Transactions, ivyo bikaba bituma igitigiri n’ubwoko bw’itunga ryimuriwe biboneka ku bari muri iyo nzira gusa (n’abo bahisemwo guhishurira Blinding key(urupfunguruzo rwo guhishura)), mu gihe biguma vyemeza ko ata biceri vyinshi bishobora gukoreshwa kuruta.
 
 
 ### Aderesi z’ibanga na Confidential Transactions
 
 
-Ku mburabuzi, iyo uremye Address nshasha muri Elements ukoresheje itegeko `getnewaddress` iremwa nka Confidential Address.
+Ku mburabuzi(ivyo usangako utashizemwo), iyo uremye Address nshasha muri Elements ukoresheje itegeko(command) `getnewaddress` iremwa nka Confidential Address(aderese y'ibanga).
 
 
-Kugira ngo twerekane Confidential Transactions tuzogira e2 yirungikire amahera hanyuma tugerageze kuraba ibikorwa bivuye kuri e1. Ivyo bizokwerekana ko amafaranga akoreshwa muri Elements ari ibanga.
+Kugira ngo twerekane Confidential Transactions tuzogira e2 yirungikire amahera makeya hanyuma tugerageze kuraba ibikorwa bivuye kuri e1. Ivyo bizokwerekana ko amafaranga akoreshwa muri Elements ari ibanga.
 
 
-Address nshasha yose ivuye mu nzira ya Elements ni ibanga ku buryo busanzwe. Ivyo turashobora kubigaragaza mu kuronka e2 kuri generate Address nshasha.
+Address nshasha yose ivuye mu nzira ya Elements ni ibanga. Ivyo turashobora kubigaragaza mu kuronka e2 kugira izane Address nshasha.
 
 
 ```
@@ -385,7 +385,7 @@ e2-cli getnewaddress
 ```
 
 
-Zirikana ko Address itangura na e1. Ivyo bigaragaza ko ari Confidential Address. Gusuzuma Address mu buryo burambuye ukoresheje itegeko getaddressinfo vyerekana vyinshi mu buryo burambuye kuri Address.
+Zirikana ko Address itangura na e1. Ivyo bigaragaza ko ari Confidential Address. Gusuzuma Address mu buryo burambuye ukoresheje command getaddressinfo vyerekana vyinshi mu buryo burambuye kuri Address.
 
 
 ```
@@ -396,7 +396,7 @@ e2-cli getaddressinfo <address>
 Ushobora kubona ko hariho urufunguzo rw'ibanga rutubwira ko ari Confidential Address.
 
 
-Urufunguzo rw'ibanga ni Blinding key ya bose, yongerwa kuri Confidential Address ubwayo. Ivyo ni vyo bituma Confidential Address iba ndende cane.
+Urufunguzo rw'ibanga ni urupfunguruzo rwo guhishura rwa bose, yongerwa kuri Confidential Address ubwayo. Ivyo ni vyo bituma Confidential Address iba ndende cane.
 
 
 Irafise kandi Unconfidential address ijana. Niba wipfuza gukoresha amafaranga asanzwe, atari ay’ibanga, muri Elements, ivy’ubutunzi bikwiye kwoherezwa kuri iyi Address aho gukoresha iyo ifise intango ya lq1.
