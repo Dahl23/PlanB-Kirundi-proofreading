@@ -410,7 +410,7 @@ e2-cli sendtoaddress <address>
 ```
 
 
-Raba igitabu transaction ID. Wemeze ivy’ugucuruza.
+Raba igitabu transaction ID. Wemeze ico gikorwa(transaction).
 
 
 ```
@@ -418,7 +418,7 @@ e2-cli -generate 101
 ```
 
 
-Turavye transaction aho e2 yirungikiye amafaranga amwe amwe uhereye ku mbonerahamwe ya e2 ubwayo.
+Turavye transaction tubona ko e2 yirungikiye amafaranga yonyene ufatiye kuciyumviro ca e2 ubwayo.
 
 
 ```
@@ -426,10 +426,10 @@ e2-cli gettransaction <txid>
 ```
 
 
-Uciye hejuru y’amakuru y’ibikorwa, urashobora kubona ko e2 ishobora kubona amahera yoherejwe n’ayakiriwe hamwe n’itunga ryagurishijwe. Ushobora kandi kubona amountblinder na assetblinder, bikoreshwa mu guhuma amakuru ava ku bindi bice bitagira uruhara mu gucuruza.
+Uciye hejuru y’amakuru arambuye y’ibikorwa, urashobora kubona ko e2 ishobora kubona amahera yarungutswe n’ayakiriwe hamwe n’itunga(amafaranga) ryagurishijwe. Ushobora kandi kubona amountblinder(amafaranga yahishijwe) na assetblinder, bikoreshwa mu guhisha amakuru ava ku bindi bice bitagira uruhara mu gucuruza.
 
 
-Kugira ngo tugenzure amakuru y’ivyo bicuruzwa nyene kuva kuri e1 turabanza kuronka amakuru y’ivyo bicuruzwa bitagiramwo ivyiza.
+Kugira ngo tugenzure amakuru y’ivyo bicuruzwa nyene kuva kuri e1 turabanza kuronka amakuru y’ivyo bicuruzwa atavuyemwo ikintu nakimwe.
 
 
 ```
@@ -437,16 +437,16 @@ e1-cli getrawtransaction <txid>
 ```
 
 
-Ivyo bigarura amakuru y’ibikorwa vy’ubudandaji. Niwaraba mu gice ca vout urashobora kubona ko hariho instances zitatu. Ivyiyumviro bibiri vya mbere ni amahera yo kwakira n’ayo guhindura, ica gatatu ni amahera yo gukoresha. Muri ayo mahera atatu, amafaranga ni yo yonyene ushobora kubonamwo agaciro, kuko amafaranga ubwayo yama ari unblinded muri Elements.
+Ivyo bigarura amakuru y’ibikorwa vy’ubudandaji. Niwaraba mu gice ca vout urashobora kubona ko hariho instances zitatu. Ivyiyumviro bibiri vya mbere ni amahera yo kwakira n’ayo guhindura, ica gatatu ni amahera yo gukoresha. Muri ayo mahera atatu, amafaranga ni yo yonyene ushobora kubonamwo agaciro, kuko amafaranga ubwayo yama ari unblinded(adahishije) muri Elements.
 
 
-### Imfunguruzo zihuma
+### Imfunguruzo zihuma amaso
 
 
-Ivyo ibice bibiri vya mbere vyerekana ni "Blinded ranges” y’amahera y’agaciro n’amakuru ya Commitment akora nk’ikimenyamenya c’amahera nyayo n’ubwoko bw’umutungo wagurishijwe.
+Ivyo ibice bibiri vya mbere vyerekana ni "Blinded ranges”(bivuga kwemeza ko amahera ahari gusa utabanje kwerekana uko angana) y’amahera y’agaciro n’amakuru ya Commitment akora nk’ikimenyamenya c’amahera nyayo n’ubwoko bw’umutungo cabke amafaranga wagurishijwe.
 
 
-Naho twokwinjiza urufunguzo rw’ibanga rwa e2 muri Wallet ya e1, ntirwoshobora kubona amafaranga n’ubwoko bw’umutungo ugurishwa kuko nta bumenyi ifise ku bijanye na Blinding key ikoreshwa na e2. Ivyo tuzovyemeza mu kwinjiza urufunguzo rw'ibanga rukoreshwa na Wallet ya e2 muri e1. Mbere na mbere dukeneye gusohora urufunguzo ruvuye kuri e2.
+Naho twokwinjiza urufunguzo rw’ibanga(privet key) rwa e2 muri Wallet ya e1, ntirwoshobora kubona amafaranga n’ubwoko bw’umutungo ugurishwa kuko nta bumenyi ifise ku bijanye na Blinding key ikoreshwa na e2. Ivyo tuzovyemeza mu kwinjiza urufunguzo rw'ibanga rukoreshwa na Wallet ya e2 muri e1. Mbere na mbere dukeneye gusohora urufunguzo ruvuye kuri e2.
 
 
 ```
@@ -462,7 +462,7 @@ e1-cli importprivkey <privkey>
 ```
 
 
-None turashobora kwemeza ko e1 atashobora kubona agaciro.
+Ubu turashobora kwemeza ko e1 atashobora kubona agaciro.
 
 
 ```
@@ -470,10 +470,10 @@ e1-cli gettransaction <txid>
 ```
 
 
-Nkako, yerekana 0 nk'umubare wa tx igihe mu vy'ukuri wari 1.
+Nkako, yerekana 0 nk'igitigiri c'amahera ca tx igihe mu vy'ukuri wari 1.
 
 
-Kugira ngo dushobore kubona agaciro nyako, katagira amaso, turakeneye Blinding key. Kugira ivyo tubishikeko tubanje gutanga Blinding key iva kuri e2.
+Kugira ngo dushobore kubona agaciro nyako, kadahishije, turakeneye Blinding key(urupfunguruzo rwo guhisha). Kugira ivyo tubishikeko tubanje gutwara Blinding key ivuye kuri e2.
 
 
 ```
@@ -489,7 +489,7 @@ e1-cli importblindingkey <address> <blinding key>
 ```
 
 
-None iyo turonse amakuru y'ibikorwa biva kuri e1.
+Hanyuma tukaronka amakuru y'ibikorwa biva kuri e1.
 
 
 ```
@@ -500,16 +500,16 @@ e1-cli gettransaction <txid>
 Birerekana ko Blinding key yashizwe hanze, ubu dushobora kubona agaciro nyakuri ka 1 mu gihe c’ugucuruza.
 
 
-Muri iki gice twabonye ko gukoresha Blinding key bihisha umubare n’ubwoko bw’itunga mu gucuruza, kandi ko mu kwinjiza Blinding key ibereye, dushobora guhishura izo nkuru. Mu gukoresha neza, nk’akarorero, urupapuro rwa Blinding key rushobora guhabwa umugenzuzi, iyo habayeho ivy’ugusuzuma amahera n’ubwoko bw’itunga ry’umuhari. Igishushanyo ca Confidential Transactions ca Elements na co nyene kiremesha “ibimenyamenya vy’urugero” gukorwa. Ivyemezo vy’urugero birashobora kwemeza ko umubare w’umutungo ugumye mu rugero runaka, ata nkenerwa yo gushikiriza umubare nyawo ubwawo.
+Muri iki gice twabonye ko gukoresha Blinding key bihisha igitigiri n’ubwoko bw’itunga canke amafaranga mu gucuruza canke mu bikorwa, kandi ko mu kwinjiza Blinding key ibereye, dushobora guhishura ako gaciro. Mu gukoresha neza, nk’akarorero, urupapuro rwa Blinding key rushobora guhabwa umugenzuzi, iyo habayeho ivy’ugusuzuma amahera n’ubwoko bw’itunga ry’umurwi kanaka. Igishushanyo ca Confidential Transactions ca Elements na co nyene kiremesha “ibimenyamenya vy’urugero” gukorwa. Ivyemezo vy’urugero birashobora kwemeza ko umubare w’umutungo canke w'amafaranga ugumye mu rugero kanaka, bitari nkenerwa gushikiriza igitigiri nyaco ubwaco.
 
 
-Twarabonye kandi ko Confidential Transactions ari ubusabe, ariko zishobora gukoreshwa iyo Address nshasha ivutse.
+Twarabonye kandi ko Confidential Transactions ubikora ushaka, ariko zishobora gukoreshwa iyo Address nshasha ivutse.
 
 
-Ivyo ni vyo vy’iki cigwa; amahirwe menshi ku kibazo kandi tuzobonane mu kizokurikira!
+Ivyo nivyo tubonye muri iki cirwa; amahirwe menshi ku bibazo kandi tuzobonane mu kizokurikira!
 
 
-## Issued Assets
+## Issued Assets(Amafaranga yasohowe)
 
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
@@ -521,19 +521,19 @@ Ivyo ni vyo vy’iki cigwa; amahirwe menshi ku kibazo kandi tuzobonane mu kizoku
 Muri iki gice uzomenya ingene ukoresha ikintu ca Issued Assets ca Elements.
 
 
-Issued Assets zituma ubwoko bwinshi bw’itunga bushobora gusohorwa no kwimurirwa hagati y’abaje mu mugwi wa Elements. Node yose iri ku rubuga irashobora gutanga itunga ryayo bwite. Ivyo bishobora guserukira Ownership y’umutungo uwo ari wo wose harimwo amafaranga, amakupo, amafaranga, amafaranga, amabondi, imigabane, n’ibindi.
+Issued Assets zituma ubwoko bwinshi bw’itunga canke bw'amafaranga bushobora gusohorwa no kwimurirwa hagati y’abaje mu mugwi wa Elements. Node yose iri ku rubuga irashobora gutanga amafaranga yayo bwite. Ivyo bishobora guserukira nyen'amafaranga uw'ariwe wese harimwo amafaranga, amakupo, amafaranga y'agaciro, amafaranga ashirwa ku bubiko bwawe, amabondi, imigabane, n’ibindi.
 
 
-Itunga ryasohowe na ryo nyene rishobora kwungukira kuri Confidential Transactions kandi rishobora gusubirwamwo n'umuntu wese afise token ijana.
+Issued Assets na zo nyene zishobora kwungukira kuri Confidential Transactions kandi rishobora gusubirwamwo n'umuntu wese afise token bijana.
 
 
-Intambwe ya mbere ni uko tuzokenera gushika ku nzira zibiri za Elements, tuzozita e1 na e2. Ivyo bihimba vyari vyarasubijwemwo ama blockchains yavyo kandi default asset iragabanywa hagati yavyo.
+Intambwe ya mbere ni uko tuzokenera gushika ku ma node abiri ya Elements, tuzozita e1 na e2. Ivyo bihimba vyari vyarasubijwemwo ama blockchains yavyo kandi default asset iragabanywa hagati yavyo.
 
 
-Izo node zibiri ziri ku rubuga rumwe rw’aho hantu, kandi zihuye, rero zisangira ibikorwa bimwe mu bikorwa vyazo Mempool n’ama blockchains asa. Naho zikoresha imashini imwe, birabereye kumenya ko zidasangira amadosiye nyayo ya Blockchain. Buri node icungera kopi yayo y’aho hantu ya Blockchain, irimwo amateka y’ibikorwa bimwe kubera ko zihuriyeko kandi zikurikiza amategeko y’amasezerano nk’aya buri wese.
+Izo node zibiri ziri ku rubuga rumwe rw’aho hantu, kandi zihuye, rero zisangira ibikorwa bimwe mu bikorwa vyazo Mempool n’ama blockchains amwamwe afise ibikorwa kanaka bisa. Naho zikoreshwa ku mashini imwe, birabereye kumenya ko zidasangira amadosiye nyayo ya Blockchain. Buri node icungera kopi yayo y’aho hantu vya Blockchain, irimwo amateka y’ibikorwa bimwe kubera ko zihuriyeko kandi zikurikiza amategeko y’amasezerano nk’aya buri wese.
 
 
-Reka dutangure dusuzume ukuntu buri node ibona ivyerekeye amafaranga y’itunga ariho ku rubuga.
+Reka dutangure dusuzume ukuntu buri node ibona ivyerekeye gutanga amafaranga ari ku rubuga.
 
 
 Ivyo bikorwa hakoreshejwe itegeko listissuances.
@@ -546,13 +546,13 @@ e2-cli listissuances
 ```
 
 
-Nk’uko ushobora kubibona, izo node zompi zirerekana amateka amwe y’ugusohoka. Bompi berekana umutungo umwe, ugusohoka kwa mbere kw’amamiliyoni 21 y’ama Bitcoin yaremwe gutangura on chain. Ushobora kubona hex id y'umutungo mu bisubizo vyo gukoresha itegeko riri hejuru hamwe n'ikimenyetso cahawe umutungo, ari co 'Bitcoin'.
+Nk’uko ushobora kubibona, izo node zose zirerekana amateka amwe y’ugusohoka. zose zerekana umutungo umwe, ugusohoka kwa mbere kw’amamiliyoni 21 y’ama Bitcoin yaremwe gutangura on chain. Ushobora kubona hex id y'umutungo mu inyishu zo gukoresha command twaguhaye aho hejuru hamwe n'ikimenyetso c'aryo, ari co 'Bitcoin'.
 
 
-Birabereye kumenya ko default asset yama ihabwa ikimenyetso iyo uruzitiro rutangura. Iyo usohoye ivy’ubutunzi bwawe, urashobora kubishirako ama label wewe nyene, ivyo tuzobikora vuba. Imbere y’uko ivyo tubikora, turakeneye gutanga umutungo wacu bwite.
+Birabereye kumenya ko default asset yama ihabwa ikimenyetso iyo uruzitiro(chain) rutangura. Iyo usohoye ivy’ubutunzi bwawe, urashobora kubishirako ama label wewe nyene, ivyo tuzobikora vuba. Imbere y’uko ivyo tubikora, turakeneye gutanga umutungo wacu bwite.
 
 
-Tuzogira e1 itanga umutungo mushasha. Ivyo bikorwa hakoreshejwe itegeko issueasset.
+Tuzokora kuburyo e1 itanga umutungo mushasha. Ivyo bikorwa hakoreshejwe command ya issueasset.
 
 
 ```
@@ -563,10 +563,10 @@ e1-cli issueasset 100 1 false
 `issueasset` yemera ibipimo 3.
 
 
-Igitigiri c'umutungo mushasha wo gutanga, twakoresheje 100. Igitigiri c'ibimenyetso vyo kurema (ibimenyetso bikoreshwa mu gusubira gutanga amafaranga y'umutungo), muri ivyo twahisemwo 1. Igiharuro ca nyuma kibwira Elements ko yoshobora kurema umutungo wo gutanga nk'uko blinded canke unblinded. Tuzokoresha unblinded nk'uko dushaka kubona amafaranga y'isohoka kuva kuri e2 mu munota, rero tuzokwinjiza ibinyoma.
+Igitigiri c'umutungo mushasha wo gutanga, twakoresheje 100. Igitigiri c'ibimenyetso vyo kurema (ama jeto akoreshwa mu gusubira gutanga amafaranga y'umutungo), muri ivyo twahisemwo 1. Igiharuro ca nyuma kibwira Elements ko yoshobora kurema umutungo wo gutanga nk'uko blinded canke unblinded(ahishije canke adahishije). Tuzokoresha unblinded nk'uko dushaka kubona amafaranga y'isohoka kuva kuri e2 mu mwanya muto, rero tuzokwinjiza « false »
 
 
-Gukoresha itegeko bigarura amakuru yerekeye isohoka. Ivyo birimwo transaction ID, ushobora gufata kopi yayo kugira ngo uyikoreshe mu nyuma, agaciro kadasanzwe k'umutungo, n'agaciro kadasanzwe k'umutungo token.
+Gukoresha itegeko bigarura amakuru yerekeye isohoka. Ivyo birimwo transaction ID, ushobora gufata kopi yayo kugira ngo uyikoreshe mu nyuma, agaciro kadasanzwe k'umutungo, n'agaciro kadasanzwe kandi kamwe jeto cank token y'umutungo.
 
 
 generate igice co kwemeza igikorwa co gutanga.
@@ -596,19 +596,19 @@ e2-cli listissuances
 ```
 
 
-Ivyo bitwereka ko e2 atazi ivy’ugusohora umutungo e1 yakoze. Ishobora gusa kubona isohoka rya mbere rya Bitcoin ryari risanzwe ribona.
+Ivyo bitwereka ko e2 itazi ivy’ugusohora umutungo e1 yakoze. Ishobora gusa kubona isohoka rya mbere rya Bitcoin ryari risanzwe ribona.
 
 
-Ivyo ni kubera ko e2 itazi, kandi itariko iraraba, Address iyo mutungo mushasha woherejweko igihe wasohorwa na e1.
+Ivyo ni kubera ko e2 itazi, kandi itariko iraraba, Address iyo mutungo mushasha warungitswe igihe wasohorwa na e1.
 
 
-Birabereye kumenya ko naho e2 adashobora kubona iyo nkuru ubwayo, e1 yoshobora kohereza e2 bimwe mu bintu. Ico kintu gishasha coca kigaragara nk’amahera asigaye muri Wallet ya e2, naho nyene kitazi ivy’ugusohoka kw’intango.
+Birabereye kumenya ko naho e2 idashobora kubona iyo nkuru ubwayo, e1 yoshobora kurungika e2 bimwe mu bintu. Ico kintu gishasha coca kigaragara nk’amahera asigaye muri Wallet ya e2, naho nyene kitazi ivy’ugusohoka kw’intango.
 
 
 Kugira ngo e2 ibone igisohoka nyaco (kandi rero n'amahera yasohotse), turakeneye kwongerako Address kuri e2 nk'iyi Address ibonwa.
 
 
-Kugira ivyo tubishikeko turakeneye kumenya Address iyo mutungo woherejweko. Ku bw’ivyo, tuzokoresha transaction ID twakopiye mbere maze e1 ironke amakuru y’ico gikorwa kugira ngo dushobore kumenya Address ibereye kugira ngo twongere ku rutonde rwa Wallet rwo kuraba rwa e2.
+Kugira ivyo tubishikeko turakeneye kumenya Address iyo mutungo canke ayo mafaranga yarungitsweko. Ku bw’ivyo, tuzokoresha transaction ID twakopiye imbere y'igihe maze e1 ironke amakuru y’ico gikorwa kugira ngo dushobore kumenya Address ibereye kugira ngo twongere ku rutonde rwa Wallet rwo kuraba rwa e2.
 
 
 ```
@@ -616,13 +616,13 @@ e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
 
-Uciye hejuru urenga hex y’amakuru y’ibikorwa uzobona Address yaronse 100 vy’umutungo wacu mushasha, ugaragazwa n’agaciro ka hex kayo.
+Uciye hejuru urenga hex y’amakuru y’ibikorwa uzobona Address yaronse ibitigiri 100 vy’umutungo wacu mushasha, ugaragazwa n’agaciro ka hex kayo.
 
 
-Fata Address uyikope kugira ngo tuyishire muri e2.
+Fata Address uyikopiye kugira ngo tuyishire muri e2.
 
 
-None reka twinjize iyo Address muri e2. Kugira ivyo tubishikeko dukoresha itegeko importaddress.
+Hama reka twinjize iyo Address muri e2. Kugira ivyo tubishikeko dukoresha command importaddress.
 
 
 ```
@@ -638,7 +638,7 @@ e2-cli listissuances
 ```
 
 
-Ushobora kubona ko umutungo wacu mushasha wasohotse ubu uri muri urwo rutonde. Igikoresho ca e2 kirashobora kandi kumenya umubare w’itunga ryasohowe, hamwe n’umubare w’itunga ry’i token rijana, kuko iryo soko ryari isohoka rya unblinded. Kugira ngo ushobore gukoresha ID y'umutungo kugira ngo ushireho izina ry'ikarita muri Elements, banza uhagarike Elements.
+Ushobora kubona ko umutungo wacu mushasha wasohotse ubu uri muri urwo rutonde. Igikoresho ca e2 kirashobora kandi kumenya igitigiri c'itunga canke c'amafaranga ryasohowe, hamwe n’igitigiri c’itunga rya token bijana, kuko iryo soko ryari isohoka rya unblinded. Kugira ngo ushobore gukoresha ID y'umutungo kugira ngo ushireho izina ry'ikarita muri Elements, banza uhagarike Elements. Aho uca ukoresha command ikwirikira.
 
 
 ```
@@ -646,7 +646,7 @@ e1-cli stop
 ```
 
 
-Hanyuma wongere uyitangure n'iyindi parametere yerekana hex y'umutungo ku kimenyetso catanzwe. Ivyo bituma iyo node ishobora kutwereka amakuru yerekeye ico kintu mu buryo bushobora gusomwa n’abantu. Ushobora kwongerako ibi ku mpera ya Elements.conf niwabishaka, rero ntukeneye kwongerako argument kuri daemon igihe cose uyitangura. Nk'akarorero:
+Hanyuma wongere uyitangure n'iyindi parametere canke irindi bwirizwa ry'ubuhinga ryerekana hex y'umutungo ku kimenyetso catanzwe. Ivyo bituma iyo node ishobora kutwereka amakuru yerekeye ico kintu mu buryo bushobora gusomwa n’abantu. Ushobora kwongerako ibi ku mpera ya Elements.conf niwabishaka, rero ntukeneye kwongerako ibintu canke insiguro(arguments) kuri daemon igihe cose uyitangura. Nk'akarorero:
 
 
 ```
@@ -654,7 +654,7 @@ assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new
 ```
 
 
-Ariko tuzokoresha uburyo bw’imvo n’imvano hano.
+Ariko tuzokoresha uburyo bwa argument(argument method) .
 
 
 ```
@@ -662,7 +662,7 @@ e1-dae -assetdir=<assetid-here>:<name-of-the-new-asset>
 ```
 
 
-Gusaba node urutonde rw'ibisohoka kandi.
+Gusaba node urutonde rw'ivyasohowe canke vyatanzwe.
 
 
 ```
@@ -670,7 +670,7 @@ e1-cli listissuances
 ```
 
 
-Ivyo bitwereka ko gukora ikarita y’agaciro k’umutungo ku kimenyetso cawo biriko birakora. Gusubira gusuzuma ku rutonde rw'ibisohoka rwa e2 node.
+Ivyo bitwereka ko gukora ikarita y’agaciro k’umutungo ku kimenyetso cawo biriko birakora. Gusubira gusuzuma ku rutonde rw'ivyatanzwe kuri e2 node.
 
 
 ```
@@ -678,7 +678,7 @@ e2-cli listissuances
 ```
 
 
-Ushobora kubona ko node ya e2 idashobora gushika kuri iyi label, kuko labels ziboneka gusa ku node izishiraho. Nkako, turashobora gutanga ikimenyetso gitandukanye ku mutungo umwe hex kuri e2 kuruta uko twabigize kuri e1. Mbere na mbere uhagarike urudodo rwa e2.
+Ushobora kubona ko node ya e2 idashobora gushika kuri iyi label, kuko labels ziboneka gusa kuri node izishiraho. Nkako, turashobora gutanga ikimenyetso gitandukanye ku mutungo umwe hex kuri e2 kuruta uko twabigize kuri e1. Mbere na mbere uhagarike node ya e2.
 
 
 ```
@@ -686,7 +686,7 @@ e2-cli stop
 ```
 
 
-Gusubira gutangura n'ikimenyetso gitandukanye gishizwe ku hex y'umutungo wacu mushasha.
+Gusubira gutanguza n'ikimenyetso gitandukanye gishizwe ku hex y'umutungo wacu mushasha.
 
 
 ```
@@ -705,10 +705,10 @@ e2-cli listissuances
 Ivyandiko vy'umutungo ni ivy'aho hantu kuri buri nzira, hex gusa y'umutungo ni yo yemerwa n'izindi nzira ziri ku rubuga.
 
 
-Ikarata y’ikimenyetso ku mutungo hex ni ngirakamaro igihe ukora ibikorwa nk’ibikorwa vy’ubudandaji n’ibibazo vy’uburinganire bwa Wallet, kuko yemerera uburyo bugufi bwo kwerekeza ku mutungo. Nk’akarorero, iyo dushaka kohereza bimwe mu bintu vyacu bishasha (umubare w’ibice 10) kuva kuri e1 gushika kuri e2 ata gukoresha ikimenyetso.
+Ikimenyetso ku mutungo hex ni ngirakamaro igihe ukora ibikorwa nka kungika canke kwakira canke kuraba ubutunzi ufise kuri Wallet, kuko yemerera uburyo bugufi kandi bwizewe bwo kwerekeza ku mutungo. Nk’akarorero, iyo dushaka kurungika bimwe mu bintu vyacu bishasha (Igitigiri c’ibice 10) kiva kuri e1 gushika kuri e2 ata gukoresha ikimenyetso(labels).
 
 
-Mbere na mbere turakeneye kuronka Address yo koherezako umutungo.
+Mbere na mbere turakeneye kuronka Address yo kurungikako umutungo canke amafaranga.
 
 
 ```
@@ -716,7 +716,7 @@ e2-cli getnewaddress
 ```
 
 
-Hanyuma ukoreshe itegeko rya sendtoaddress.
+Hanyuma ukoreshe command ya sendtoaddress.
 
 
 ```
@@ -724,7 +724,7 @@ e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <asset-id-here
 ```
 
 
-Wemeze ibikorwa mu gutanga ububiko.
+Wemeze ibikorwa mu kuzana bloc.
 
 
 ```
@@ -732,7 +732,7 @@ generate 1
 ```
 
 
-Gusuzuma umutungo vyakiriwe ku wa e2.
+Gusuzuma ko wakiriye uwo umutungo canke ayo mafaranga iyo e2.
 
 
 ```
@@ -740,10 +740,10 @@ e2-cli getwalletinfo
 ```
 
 
-Turashobora kubona ko uwo mutungo wari warakiriwe vy’ukuri.
+Turashobora kubona ko uwo mutungo wari wagushikiriye vy'ukuri.
 
 
-Zirikana ko e2 igaragaza hex y’umutungo wakiriwe kandi ikawugaragaza ikoresheje ikimenyetso cayo bwite. Uburyo bworoshe bwo gukora ivyo nyene bwoba ari ugukoresha ikimenyetso c’itunga ca e1 igihe wohereje.
+Zirikana ko e2 igaragaza hex y’umutungo wakiriwe kandi ikawugaragaza ikoresheje ikimenyetso cayo bwite. Uburyo bworoshe bwo gukora ivyo nyene bwoba ari ugukoresha ikimenyetso c’itunga ca e1 igihe urungika.
 
 
 ```
@@ -751,13 +751,13 @@ e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-n
 ```
 
 
-Inyuma y'ivyo, Elements ikarita y'ibimenyetso vyo mu karere ku gaciro ka hex kugira ngo ifashe mu kworohereza ikoreshwa rya Issued Assets.
+Inyuma y'ivyo, Elements ikarita y'ibimenyetso vyo mu mashine ku gaciro ka hex kugira ngo ifashe mu kurungika ikoreshwa vya Issued Assets.
 
 
-Muri iki gice twabonye ingene twotanga no gushirako amazina y’itunga. Mu gice gikurikira tuzorabira ku gusubira gutanga no gusenya amafaranga y’umutungo wasohowe.
+Muri iki gice twabonye ingene twotanga no gushirako amazina y’itunga. Mu gice gikurikira tuzorabira ku gusubira gutanga no gusenya amafaranga y’umutungo w canke amafaranga yasohowe.
 
 
-## Gusubira gutanga umutungo
+## Gusubira gutanga umutungo canke amafaranga
 
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
@@ -766,22 +766,22 @@ Muri iki gice twabonye ingene twotanga no gushirako amazina y’itunga. Mu gice 
 :::id y'amasanamu = 7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 
-Muri iki gice uzomenya ingene wotanga vyinshi ku mutungo umaze gusohoka be n’ingene wosambura umubare kanaka w’umutungo wasohotse.
+Muri iki gice uzomenya ingene wotanga vyinshi ku mutungo umaze gusohoka be n’ingene wosambura igitigiri kanaka c’umutungo canke c'amafaranga yasohotse.
 
 
-Ivy’ugusubira gutanga (guhingura vyinshi) vy’umutungo canke gusenya umubare w’umutungo ni ikintu gishobora kubaho iyo umutungo ugereranya ikintu kidafise Supply idahinduka. Ivyo vyoshobora gukoreshwa ku bintu bigereranya inzahabu ifitswe mu nzu y’ububiko nk’akarorero; uko ibice vy’inzahabu vyinjira no gusohoka mu nzu y’ububiko, umutungo ugereranya Supply y’inzu y’ububiko urakeneye guhindurwa hejuru canke hasi bivanye n’ivyo.
+Ivy’ugusubira gutanga (kurema vyinshi) vy’umutungo canke gusenya igitigir c’umutungo ni ikintu gishobora kubaho iyo umutungo ugereranya ikintu kidafise Supply(ivyo gitanga canke gisohora) idahinduka. Ivyo vyoshobora gukoreshwa ku bintu bigereranya inzahabu ibitswe mu nzu y’ububiko nk’akarorero; uko ibice vy’inzahabu vyinjira no gusohoka mu nzu y’ububiko, umutungo ugereranya ugutanga kw'inzu y’ububiko urakeneye guhindurwa hejuru canke hasi bivanye n’ivyo.
 
 
-Gusubira gutanga umubare w’umutungo bisaba Ownership ya token ijana na yo yaremwe iruhande y’uwo mutungo igihe wasohoka mu ntango.
+Gusubira gutanga igitigiri c’umutungo bisaba gutunga ya token ijana na yo yaremwe iruhande y’uwo mutungo igihe wasohoka mu ntango.
 
 
-Igihe urema umutungo mwinshi, Ntaco bimaze ni uruhe rudodo rwasohoye umutungo mu kibanza ca mbere, igihe cose urudodo ruriko rurasubira gutanga umubare w'umutungo rufise ico bita reissuance token y'umutungo. Turaza kuraba ingene mu ntango tworema reissuance token, ingene twoyikoresha mu gusubira gusohora umubare w’umutungo be n’ingene tworungika reissuance token mu zindi node, kugira ngo na zo zibe zifise uruhusha rwo gusubira gusohora umutungo.
+Igihe urema umutungo mwinshi, Ntaco bimaze ni iyihe node yasohoye umutungo mu kibanza ca mbere, igihe cose node iriko irasubira gutanga igitigiri c'umutungo ifise ico bita reissuance token y'umutungo. Turaza kuraba ingene mu ntango tworema reissuance token, ingene twoyikoresha mu gusubira gusohora igitigiri c’umutungo be n’ingene tworungika reissuance token mu zindi node, kugira ngo na zo zibe zifise uruhusha rwo gusubira gusohora umutungo.
 
 
-Tuzokenera gushika ku nzira zibiri za Elements, tuzozita e1 na e2. Ivyo bice vyari vyarasubiye gukoreshwa, default asset na yo iragabanywa hagati yavyo.
+Tuzokenera gushika kuri node zibiri za Elements, tuzozita e1 na e2. Ivyo bice vyari vyarasubiye gukoreshwa, default asset na yo iragabanywa hagati yavyo.
 
 
-Tuzogira e1 itanga umubare w’amahera 100 y’umutungo mushasha maze dukore 1 reissuance token y’uwo mutungo nyene. Tuzorema ikinyamakuru nka unblinded kugira ngo tworohereze akarorero. Rero reka tugende dusohore umutungo n'ivyo ujana na reissuance token.
+Tuzogira e1 itanga igitigiri c’amahera 100 y’umutungo mushasha maze dukore 1 reissuance token y’uwo mutungo nyene. Tuzorema ikinyamakuru nka unblinded kugira ngo tworohereze akarorero. Rero reka tugende dusohore umutungo n'ivyo ujana na reissuance token.
 
 
 ```
@@ -789,13 +789,13 @@ e1-cli issueasset 100 1 false
 ```
 
 
-Raba ID y'umutungo hamwe n'iya (gusubira gusohora) token.
+Raba ID y'umutungo hamwe n'iya (gusubira gusohora(ya reissuance)) token.
 
 
-Nk’uko mu nyuma tuzosubira gusohora ibindi bintu biva kuri e2 tuzokenera gufata akamenyetso ka transaction ID iyo mutungo yasohowemwo maze tuyikoreshe kugira ngo tuzane Address iyo mutungo yoherejwemwo.
+Nk’uko mu nyuma tuzosubira gusohora ibindi bintu biva kuri e2 tuzokenera gufata akamenyetso ka transaction ID iyo mutungo canke amafaranga yasohowemwo maze tuyikoreshe kugira ngo tuzane Address iyo mutungo yoherejwemwo.
 
 
-Wemeze ivy’ugucuruza.
+Wemeze ivy’ivyakozwe(ibikorwa).
 
 
 ```
@@ -803,7 +803,7 @@ e1-cli -generate 1
 ```
 
 
-Ubu tuzosuzuma ido n'ido ry'ugucuruza dukoresheje itegeko rya gettransaction:
+Ubu tuzosuzuma mu buryo burambuye ugucuruza  canke ibikorwa dukoresheje itegeko rya gettransaction:
 
 
 ```
@@ -811,13 +811,13 @@ e1-cli gettransaction <txid>
 ```
 
 
-Uciye hejuru urenga hex y’amakuru y’isoko uzobona ko mu soko e1 yaronse 1 reissuance token na 100 vy’umutungo ujana.
+Uhereye hejuru umanuka hex y’amakuru y’isoko uzobona ko mu soko e1 yaronse 1 reissuance token na 100 vy’umutungo ujana.
 
 
 Fata kopi ya Address kugira ngo tuyishire muri e2.
 
 
-Kandi ubu turiko turazana Address muri Wallet ya e2.
+Kandi ubu nukuzana turazana Address muri Wallet ya e2.
 
 
 ```
@@ -825,7 +825,7 @@ e2-cli importaddress <address>
 ```
 
 
-Ubu turashobora kubona ko e1 na e2 bompi bazi ivy’ugusohora umutungo.
+Ubu turashobora kubona ko e1 na e2 zose zizi ivy’ugusohora umutungo.
 
 
 ```
@@ -835,7 +835,7 @@ e2-cli listissuances
 ```
 
 
-Ubu e1 afise umubare w’itunga na 1 reissuance token ariko e2 ntaco afise.
+Ubu e1 afise igitigiri c'itunga c’itunga na 1 reissuance token ariko e2 ntayo afise.
 
 
 ```
@@ -843,7 +843,7 @@ e1-cli getwalletinfo
 ```
 
 
-Kandi menya ko e1 ifise default asset nke kuruta uko yari imeze kera kuko yarishe amahera makeyi kugira ngo yishure amafaranga y’ugucuruza. Ivyo bihembo bitegerezwa gukusanywa na e1 igihe igice cakozwe kizoba gikuze hejuru y’ibice 100 vy’uburebure.
+Kandi menya ko e1 ifise default asset nke kuruta uko yari imeze kera kuko yarishe amahera makeyi kugira ngo irihe amafaranga y’ugucuruza. Ivyo bihembo bitegerezwa kwegeranywa na e1 igihe igice cakozwe kizoba gikuze hejuru y’ibice 100 vy’uburebure.
 
 
 ```
@@ -851,7 +851,7 @@ e2-cli getwalletinfo
 ```
 
 
-Nk’uko e1 ifise reissuance token irashobora gusubira kuyisohora nyinshi. Ivyo bikorwa hakoreshejwe itegeko reissueasset. Reka e1 asubire gusohora izindi 100 z’itunga.
+Nk’uko e1 ifise reissuance token irashobora gusubira kuyisohora nyinshi. Ivyo bikorwa hakoreshejwe itegeko reissueasset. Reka e1 asubire gusohora izindi 100 zirengako zo kuri aya mafaranga .
 
 
 ```
@@ -859,7 +859,7 @@ e1-cli reissueasset <asset-id> 100
 ```
 
 
-Gusuzuma ko vyasubiwemwo vyarakoze.
+Gusuzuma ugukora neza kw'itangwa ry'amafaranga vyarakoze.
 
 
 ```
@@ -867,7 +867,7 @@ e1-cli getwalletinfo
 ```
 
 
-Ushobora kubona ko e1 ubu afise 200 vy’itunga nk’uko vyari bitezwe.
+Ushobora kubona ko e1 ubu afise 200 vy’itunga canke z'amafaranga nk’uko vyari bitezwe.
 
 
 Kubera ko e2 idafise umubare w’amahera ya reissuance token bazoronka ikosa iyo bagerageje gusubira gutanga umutungo.
@@ -881,7 +881,7 @@ e2-cli reissueasset <asset-id> 100
 Iyumvire ubutumwa bw’ikosa.
 
 
-Turashobora kubona ido n’ido ry’ugusubira gusohora kuva kuri e1 dukoresheje itegeko rya listissuances.
+Turashobora kubona ido n’ido ry’ugusubira gusohora kuva kuri e1 dukoreshejwe command ya listissuances.
 
 
 ```
@@ -889,7 +889,7 @@ e1-cli listissuances
 ```
 
 
-Iyumvire `ni_gusubira gusohoka` ibendera.
+Iyumvire `is_reissuance` ibendera.
 
 
 Nitwarungika ubu e2 umubare w’amahera ya reissuance token bazoshobora gusubira gutanga umubare w’itunga bo ubwabo. Mbere dukeneye Address kugira ngo tuyirungikire. Birabereye kumenya ko reissuance token ifatwa nk’iyindi mitungo yose iri muri Elements igihe yohereza no kwerekana amafaranga kandi ko ishobora no gucagurwa mu bice bitobito nk’iyindi mitungo yose, rero ntidukeneye kohereza 1 reissuance token kuri e2 kugira ngo ishobore gusubira gukoreshwa. Idini iryo ari ryo ryose rizohagije. Gukora Address kugira ngo e2 ironke reissuance token.
@@ -900,7 +900,7 @@ e2-cli getnewaddress
 ```
 
 
-Hanyuma wohereze igice ca RIT kuva kuri e1 gushika kuri e2.
+Hanyuma urungike igice ca RIT kuva kuri e1 gushika kuri e2.
 
 
 ```
